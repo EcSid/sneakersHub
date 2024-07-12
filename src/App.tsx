@@ -13,7 +13,7 @@ const App = () => {
   
     document.body.style = {
         overflow-x: hidden;
-        overflow-y: hidden;
+        overflow-y: scroll;
         min-height: 2100px;
         max-height: 2100px
     }   
