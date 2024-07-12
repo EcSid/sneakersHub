@@ -85,6 +85,7 @@ const Header: FC = () => {
             )}
 
             {openBasket && (
+               {window.scrollTo(0,0)}
                 <Basket/>
             )}
         </>
