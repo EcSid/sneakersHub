@@ -37,7 +37,7 @@ const SneakerProps: FC<SneakerProps> = ({sneaker, inBasket}) => {
             position: 'relative',
             marginBottom: '3%'
         }}>
-            <p style={{height: '38px', fontSize: '18px'}}>{sneaker.name.slice(0, 50)}</p>
+            <p style={{height: '39px', fontSize: '17.3px'}}>{sneaker.name.slice(0, 50)}</p>
             <img className='imageInSneakerPost' src={isHover ? sneaker.imageRotateSrc: sneaker.imageSrc} width='190px' height='190px'></img>
             <p className='price'>{sneaker.estimatedMarketValue}</p>
             <button className='button'  
