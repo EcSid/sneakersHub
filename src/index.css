@@ -9,8 +9,14 @@
     html {
         overflow-x: hidden;
         overflow-y: scroll;
-        min-height: 2800px;
-        max-height: 2800px
+        min-height: 2400px;
+        max-height: 2400px
+    }
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        min-height: 2400px;
+        max-height: 2400px
     }
     
 }
