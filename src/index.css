@@ -14,7 +14,7 @@
     }
     body {
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: hidden;
         min-height: 2100px;
         max-height: 2100px
     }
