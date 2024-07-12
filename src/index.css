@@ -6,14 +6,14 @@
 }
 
 html {
-
+    height: 120%;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
 body {
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 @media ( 150px < width < 768px) {
@@ -26,7 +26,7 @@ body {
 
      body {
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: hidden;
         min-height: 2100px;
         max-height: 2100px
     }
