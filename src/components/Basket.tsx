@@ -28,7 +28,6 @@ const Basket: FC = () => {
             <h1 style={{
                 marginTop: '8%',
                 marginBottom: '-0.5%',
-            }
             }}>Корзина</h1>
             {elemArr.map((id, index) => {
                 return (
