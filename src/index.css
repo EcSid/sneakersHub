@@ -10,12 +10,7 @@ html{
     overflow-y: scroll;
 }
 
-  body
-  {
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
+  
 main {
     margin-bottom: 10%;
     margin-left: 50%;
