@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+main {
+    margin-bottom: 10%;
+    margin-left: 50%;
+    height: 600px;
+    width: 1050px;
+    transform: translate(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.SneakerPost {
+    border: 1px solid grey;
+    border-radius: 25;
+    height: 270px;
+    padding: 0.8rem 2rem;
+    width: 270px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3%
+}
+
+.icons img {
+    margin-right: 43%;
+}
+
+.icons img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+.button {
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.NB_banner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.allBoughtSneakers h3{
+    margin-top: 2%;
+}
+
+.allBoughtSneakers h1{
+    margin-top: 4%;
+    margin-bottom: -0.5%;
+}
+
+
+.button.buttonPay {
+    padding: 0.8rem 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.allBoughtSneakers span {
+    margin-top: 2%;
+}
+
+
+.nothingFound {
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: -0.5%;
+    color: rgb(22, 21, 21);
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.SearchInput {
+    padding: 0.7rem 1rem;
+    width: 32%;
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: 50%;
+    transform: translate(-50%)
+}
