@@ -72,7 +72,7 @@ const FormToRegister = () => {
         <Button type="primary"  htmlType="submit" className="login-form-button">
           Зарегистрироваться
         </Button>
-         <a className="register-now" href="http://google.com">Войти</a>
+         <a className="register-now" href="https://sneakershub1.netlify.app/">Войти</a>
       </Form.Item>
     </Form>
     </Layout>
