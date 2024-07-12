@@ -35,7 +35,7 @@ const Main: FC = () => {
 
     const bannerAndSearch = (
         <>
-            <img className='NB_banner' src="public/nikejordan_banner.jpg" />
+            <img className='NB_banner' src="https://24segons.wordpress.com/wp-content/uploads/2015/05/banner-jordan1-chicago-20150528.jpg" />
             <SearchInput placeholder="Введите название кроссовок" value={value} onInput={(e: React.ChangeEvent<HTMLInputElement>) => {
                 setValue(e.target.value)
             }}/>
