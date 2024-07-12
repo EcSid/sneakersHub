@@ -25,7 +25,11 @@ const Basket: FC = () => {
     return (
     <>
         <div className='allBoughtSneakers' style={{textAlign: 'center'}}>
-            <h1>Корзина</h1>
+            <h1 style={{
+                marginTop: '8%',
+                marginBottom: '-0.5%',
+            }
+            }}>Корзина</h1>
             {elemArr.map((id, index) => {
                 return (
                     <span key={id} style={{position: 'relative', display: 'inline-block', marginRight: '9px', border: '1px solid grey', borderRadius: 8,}}>
