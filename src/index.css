@@ -6,12 +6,13 @@
 }
 
 html {
-    height: 280%;
+    height: 192.5%;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
 body {
+    height: 192.5%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
