@@ -20,6 +20,10 @@ const Header: FC = () => {
       setOpenBasket(typeBool)
     }
   }
+
+    if (openBasket) {
+        window.scrollTo(0,0)
+    }
    
 
     return (
@@ -85,7 +89,6 @@ const Header: FC = () => {
             )}
 
             {openBasket && (
-               {window.scrollTo(0,0)}
                 <Basket/>
             )}
         </>
