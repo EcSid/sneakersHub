@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    body {
+    html {
         overflow-x: hidden;
         overflow-y: scroll;
         min-height: 2800px;
