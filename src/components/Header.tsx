@@ -40,7 +40,7 @@ const Header: FC = () => {
                 
             }}>
                 <div style={{display: 'flex', alignItems: 'center'}}>
-                    <img src='/public/image.png' width='38px' height='38px' style={{marginRight: '10px'}}/>
+                    <img src='../image.png' width='38px' height='38px' style={{marginRight: '10px'}}/>
                     <h2 tabIndex={1} style={{ color: 'black'}}>Sneakers Hub</h2>
                 </div>
                 <div className='icons' style={{display: 'flex'}}>
