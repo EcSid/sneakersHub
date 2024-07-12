@@ -25,7 +25,7 @@ const Modal: FC<RegistrationProps>= ({open, children}) => {
     }, [open])
 
     return createPortal(
-        <dialog ref={ref} style={{width: window.innerWidth > 850 ? '33%': '69%'}}>{children}</dialog>,
+        <dialog ref={ref} style={{width: window.innerWidth > 700 ? '36%': '83%'}}>{children}</dialog>,
         document.getElementById('modal') as HTMLDivElement
     )
 }
