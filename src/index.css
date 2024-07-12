@@ -9,12 +9,12 @@
     body {
         overflow-x: hidden;
         overflow-y: scroll;
-        height: '220%'
+        height: '300%'
     }
     html {
         overflow-x: hidden;
         overflow-y: scroll;
-        height: '220%'
+        height: '310%'
     }
 }
 
